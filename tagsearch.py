@@ -13,7 +13,8 @@ parser = argparse.ArgumentParser(description="Search HTML tags' values on a URL"
 parser.add_argument('-u', '--url', type=str, metavar='', required=True, help='The url to be searched')
 parser.add_argument('-t', '--tag', type=str, metavar='', required=True, help='The tag to be searched')
 parser.add_argument('-a', '--attr', type=str, metavar='', required=False, help="The tag's attribute to be searched")
-parser.add_argument('-r', '--regex', type=str, metavar='', required=False, help='The tag to be searched')
+parser.add_argument('-r', '--regex', type=str, metavar='', required=False, help='The regex to be matched')
+parser.add_argument('-o', '--output', type=str, metavar='', required=False, help='The output file to be written')
 
 args = parser.parse_args()
 
