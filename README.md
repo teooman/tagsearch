@@ -47,13 +47,13 @@ Clone the repo
    ```
 
 ## Usage
-
+```
 python3 tagsearch.py --url [url] --tag [tag] --attr [attribute] --regex [regex]
-
+```
 ## Example Usage
-
+```
 python3 tagsearch.py --url wikipedia.org --tag strong
-
+```
 
 
 <!-- CONTACT -->
