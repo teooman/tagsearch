@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/teomanyuksel/tagsearch">
-    <img src="images/logo.png" alt="Logo" width="160" height="80">
+    <img src="images/logo.png" alt="Logo" width="320" height="160">
   </a>
 
 <h3 align="center">tagsearch</h3>
